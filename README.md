@@ -13,4 +13,4 @@ Evan Fisher - ecf5sf
 
 Callie Phillips - cap4yf
 
-Andrew McCullough — asm4wm
+Andrew McCullough - asm4wm
