@@ -54,7 +54,7 @@ ROOT_URLCONF = 'codeforgood.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['whatsongrounds/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,8 +75,11 @@ WSGI_APPLICATION = 'codeforgood.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.path.join(BASE_DIR, 'whatsongrounds'),
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'testdb'),
+        # 'USER': "root",
+        # 'PASSWORD': "[p8WUX9J",
+        # 'HOST': "localhost",
     }
 }
 
