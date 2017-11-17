@@ -19,5 +19,6 @@ from whatsongrounds import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^signup/', views.sign_up, )
+    url(r'^signup/', views.sign_up, ),
+    url(r'^signin/', views.sign_in, )
 ]
